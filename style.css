@@ -1,13 +1,28 @@
-.green-text {
-  color: green;
-  font-family: roboto;
+.blue-text {
+  color: blue;
+  font-family: cursive;
+  font-size: 50px
 }
 
-h2 {
-  font-family: Lobster, monospace;
+.smaller-image {
+  width: 25%
 }
 
-p {
-  font-size: 16px;
+.rounded-purple {
+  border-color: #c7a2eb;
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 20%;
+}
+
+.mono-paragraph {
   font-family: monospace;
+  font-size: 20px;
+  color: #2e7372;
+}
+
+.fantasy {
+  font-size: 16px;
+  font-family: fantasy;
+  color: #7263eb;
 }
