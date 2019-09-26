@@ -1,12 +1,19 @@
+:root {
+    --lilac: #c7a2eb;
+    --darkgray: #333;
+    --lightgray: #f5f5f5;
+}
+
 body {
   margin:0;
   padding-top: 2rem;
+  background: var(--lightgray);
 }
 
 /* with help from this: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--darkgray);
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,24 +23,32 @@ body {
   font-family: 'Kalam', cursive;
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: var(--lightgray);
   text-align: center;
-  padding: 14px 16px;
+  padding: 1rem 2rem;
   text-decoration: none;
   font-size: 20px;
 }
 
 .navbar a:hover {
-  background: #ddd;
-  color: black;
+  /*background: var(--darkgray);*/
+  color: var(--lilac);
 }
 
 h1 {
   font-family: 'Kalam', cursive;
+  color: var(--lilac);
+  font-size: 3rem;
 }
 
 .padded {
   padding: 2rem;
+}
+
+.margin {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: justify;
 }
 
 .blue-text {
@@ -47,7 +62,7 @@ h1 {
 }
 
 .rounded-purple {
-  border-color: #c7a2eb;
+  border-color: var(--lilac);
   border-width: 20px;
   border-style: solid;
   border-radius: 20%;
@@ -56,11 +71,11 @@ h1 {
 .mono-paragraph {
   font-family: monospace;
   font-size: 20px;
-  color: #2e7372;
+  color: var(--lilac);
 }
 
 .fantasy {
   font-size: 16px;
   font-family: fantasy;
-  color: #7263eb;
+  color: var(--lilac);
 }
