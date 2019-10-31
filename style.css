@@ -27,7 +27,7 @@ body {
   text-align: center;
   padding: 1rem 2rem;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .navbar a:hover {
@@ -38,7 +38,11 @@ body {
 h1 {
   font-family: 'Kalam', cursive;
   color: var(--lilac);
-  font-size: 3rem;
+  font-size: 5rem;
+}
+
+.bigpara {
+  font-size: 25px;
 }
 
 .padded {
@@ -46,8 +50,8 @@ h1 {
 }
 
 .margin {
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   text-align: justify;
 }
 
@@ -63,9 +67,20 @@ h1 {
 
 .rounded-purple {
   border-color: var(--lilac);
-  border-width: 20px;
+  border-width: 10px;
   border-style: solid;
   border-radius: 20%;
+
+  float:left;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.purple {
+  border-color: var(--lilac);
+  border-width: 10px;
+  border-style: solid;
+  width: 40%;
 }
 
 .mono-paragraph {
@@ -78,4 +93,8 @@ h1 {
   font-size: 16px;
   font-family: fantasy;
   color: var(--lilac);
+}
+
+.centered {
+  text-align:center;
 }
